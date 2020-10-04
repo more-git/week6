@@ -1,0 +1,27 @@
+{
+  "name": "week6_nicholas_minnella",
+  "version": "1.0.0",
+  "description": "week 6 ACSG-542",
+  "main": "index.html",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.7",
+    "boostrap": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/more-git/week6-mongoose.git"
+  },
+  "author": "Nicholas Minnella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/more-git/week6-mongoose/issues"
+  },
+  "homepage": "https://github.com/more-git/week6-mongoose#readme"
+}
