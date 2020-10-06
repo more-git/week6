@@ -11,7 +11,6 @@ var ToDo = mongoose.model('ToDo', schema);
 
 
 mongoose.promise = require('bluebird');
-mongoose.promise = require('q').Promise;
 mongoose.promise = global.Promise;
 
 var dbURL = "mongodb://localhost/mydb";
