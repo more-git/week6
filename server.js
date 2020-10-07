@@ -20,4 +20,4 @@ MongoClient.connect("mongodb://localhost/", function(err, db) {
         res.end(JSON.stringify({}));
     });
 });	
-app.use(express.static('./')) 
+app.use(express.static('./public')) 
